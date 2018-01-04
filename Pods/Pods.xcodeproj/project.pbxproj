@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14171F3288CBEA71747867C1079FF0AA /* Pods-SwiftProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A9D349D133876146AD9FB11F36CB48 /* Pods-SwiftProject-dummy.m */; };
+		1B5C362A629F522770588BACD38B7718 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9394199A5C629F9A6B28E16BA243CF8 /* Media.xcassets */; };
+		4B1F83A2E57E6A8589C6CE0A28665A4D /* SwiftWebVCActivityChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7CF40A753FAB6962AB280DF59A5C5 /* SwiftWebVCActivityChrome.swift */; };
+		65CBC0256ECAE11D4A5F20A7309AE649 /* SwiftWebVCActivitySafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4545B7088D516314F0C4991E0B9E9BCC /* SwiftWebVCActivitySafari.swift */; };
+		7EBB3541950D4A697BFB50E1D98F243C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		868819F1BA2F538A76C22DB01F591F8F /* SwiftWebVCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 653FABCD10E3101092BEA81F9C357B56 /* SwiftWebVCResources.bundle */; };
+		87995EA65CBE91CD49FF10ACA823EB17 /* SwiftWebVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20DD6B739537E59E5CDD15C2B82F15EB /* SwiftWebVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89646780624C36DBBEE648FB2D81826D /* SwiftModalWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C253CF3E0E634466CEDFF16EA0F4DF30 /* SwiftModalWebVC.swift */; };
+		8D15421D83C95B09D55312BEA42761E2 /* Pods-SwiftProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDE8B7982A61A5B4A7F29F294881FEA /* Pods-SwiftProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDA067630DC18DE7CE08CE3BFFEE9C87 /* SwiftWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC26AF450CB8D2699268EAE27C09935 /* SwiftWebVC.swift */; };
+		C3EDBB7741E6C3D662A9079953424C5C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9394199A5C629F9A6B28E16BA243CF8 /* Media.xcassets */; };
+		EF755AED357E193A3E3BC8F38B056265 /* SwiftWebVCActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9187C2BE57B5BCF3D9473F028D0E879 /* SwiftWebVCActivity.swift */; };
+		F3781A23A754CB59A09AE682E625D9C9 /* SwiftWebVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DAE757F70E8C76FE327C0EB877513A /* SwiftWebVC-dummy.m */; };
+		F6B49DE642D8BF89EDB41942C2D365AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		135AE4C79C98AF7105BB778BFB96A171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72EFEFC0C356562D85FDC83E0691B562;
+			remoteInfo = SwiftWebVC;
+		};
+		C35B4704DA14A0ABAACA55F264313DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7862F4CEBEC8F434E5780A644AD38121;
+			remoteInfo = "SwiftWebVC-SwiftWebVCResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19DAE757F70E8C76FE327C0EB877513A /* SwiftWebVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftWebVC-dummy.m"; sourceTree = "<group>"; };
+		1D59F01471E37D343ADF4E071B9C1B05 /* SwiftWebVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftWebVC.xcconfig; sourceTree = "<group>"; };
+		20DD6B739537E59E5CDD15C2B82F15EB /* SwiftWebVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebVC-umbrella.h"; sourceTree = "<group>"; };
+		23D4F44DB6323575018A84625E4C0FAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26985BB4187B9C892441F91898389B1C /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftProject.framework; path = "Pods-SwiftProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A9D349D133876146AD9FB11F36CB48 /* Pods-SwiftProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftProject-dummy.m"; sourceTree = "<group>"; };
+		3799C025744E0AE36FFBB435C70FA94B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4792B074B90D72821ABBED6BB46F31 /* SwiftWebVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftWebVC.framework; path = SwiftWebVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BCE3DB0550F7C6A1B9EBF7FDF7299B /* Pods-SwiftProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftProject.modulemap"; sourceTree = "<group>"; };
+		4545B7088D516314F0C4991E0B9E9BCC /* SwiftWebVCActivitySafari.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftWebVCActivitySafari.swift; path = SwiftWebVC/SwiftWebVCActivitySafari.swift; sourceTree = "<group>"; };
+		486391F0C6B03E3F40B9D24CDCDE4936 /* Pods-SwiftProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProject-resources.sh"; sourceTree = "<group>"; };
+		58B6C8CE8C921E85E7A3656FF17EE3FF /* SwiftWebVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftWebVC.modulemap; sourceTree = "<group>"; };
+		58CC0174444C88EB888A34FFA361A293 /* Pods-SwiftProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BDE8B7982A61A5B4A7F29F294881FEA /* Pods-SwiftProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftProject-umbrella.h"; sourceTree = "<group>"; };
+		653FABCD10E3101092BEA81F9C357B56 /* SwiftWebVCResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftWebVCResources.bundle; path = "SwiftWebVC-SwiftWebVCResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75539E35198BDFAEDB399009BCD249CA /* Pods-SwiftProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProject-frameworks.sh"; sourceTree = "<group>"; };
+		80C1DE4B95CB2F88E26C225E7F53AD10 /* SwiftWebVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftWebVC-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9394199A5C629F9A6B28E16BA243CF8 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = SwiftWebVC/Resources/Media.xcassets; sourceTree = "<group>"; };
+		C253CF3E0E634466CEDFF16EA0F4DF30 /* SwiftModalWebVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftModalWebVC.swift; path = SwiftWebVC/SwiftModalWebVC.swift; sourceTree = "<group>"; };
+		CEC26AF450CB8D2699268EAE27C09935 /* SwiftWebVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftWebVC.swift; path = SwiftWebVC/SwiftWebVC.swift; sourceTree = "<group>"; };
+		D9187C2BE57B5BCF3D9473F028D0E879 /* SwiftWebVCActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftWebVCActivity.swift; path = SwiftWebVC/SwiftWebVCActivity.swift; sourceTree = "<group>"; };
+		E26B2019F96C5A5305B5423437ACA033 /* ResourceBundle-SwiftWebVCResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftWebVCResources-Info.plist"; sourceTree = "<group>"; };
+		E3A6DBF4371127DA848F2A063FB9F78B /* Pods-SwiftProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		E71D56497DF2AE384AB26266CA822707 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D7CF40A753FAB6962AB280DF59A5C5 /* SwiftWebVCActivityChrome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftWebVCActivityChrome.swift; path = SwiftWebVC/SwiftWebVCActivityChrome.swift; sourceTree = "<group>"; };
+		F868A56DCF7425277DA982C8E82432E8 /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518726D8FE427AEF2CFD2E2E32839143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B49DE642D8BF89EDB41942C2D365AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8256C60677C546DC3879CD1A10B3F102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5ECF869FF0D84DEB5BF75088838EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBB3541950D4A697BFB50E1D98F243C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F674FC83C6497635B3F2CB05C1147B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26985BB4187B9C892441F91898389B1C /* Pods_SwiftProject.framework */,
+				3E4792B074B90D72821ABBED6BB46F31 /* SwiftWebVC.framework */,
+				653FABCD10E3101092BEA81F9C357B56 /* SwiftWebVCResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219AA73F49B826D387945801EC915550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				569EAC911EAAA71C66519A2137866030 /* SwiftWebVC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		569EAC911EAAA71C66519A2137866030 /* SwiftWebVC */ = {
+			isa = PBXGroup;
+			children = (
+				C253CF3E0E634466CEDFF16EA0F4DF30 /* SwiftModalWebVC.swift */,
+				CEC26AF450CB8D2699268EAE27C09935 /* SwiftWebVC.swift */,
+				D9187C2BE57B5BCF3D9473F028D0E879 /* SwiftWebVCActivity.swift */,
+				F6D7CF40A753FAB6962AB280DF59A5C5 /* SwiftWebVCActivityChrome.swift */,
+				4545B7088D516314F0C4991E0B9E9BCC /* SwiftWebVCActivitySafari.swift */,
+				6C2F81B5B7197221EDF5BB53BAEF0E15 /* Resources */,
+				D866737F1E945FE3D466E2B495EEFE15 /* Support Files */,
+			);
+			name = SwiftWebVC;
+			path = SwiftWebVC;
+			sourceTree = "<group>";
+		};
+		6C2F81B5B7197221EDF5BB53BAEF0E15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9394199A5C629F9A6B28E16BA243CF8 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				219AA73F49B826D387945801EC915550 /* Pods */,
+				0F674FC83C6497635B3F2CB05C1147B7 /* Products */,
+				DE8A38B3E209AEA9F16ED91018C3F944 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D866737F1E945FE3D466E2B495EEFE15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3799C025744E0AE36FFBB435C70FA94B /* Info.plist */,
+				E26B2019F96C5A5305B5423437ACA033 /* ResourceBundle-SwiftWebVCResources-Info.plist */,
+				58B6C8CE8C921E85E7A3656FF17EE3FF /* SwiftWebVC.modulemap */,
+				1D59F01471E37D343ADF4E071B9C1B05 /* SwiftWebVC.xcconfig */,
+				19DAE757F70E8C76FE327C0EB877513A /* SwiftWebVC-dummy.m */,
+				80C1DE4B95CB2F88E26C225E7F53AD10 /* SwiftWebVC-prefix.pch */,
+				20DD6B739537E59E5CDD15C2B82F15EB /* SwiftWebVC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftWebVC";
+			sourceTree = "<group>";
+		};
+		DE8A38B3E209AEA9F16ED91018C3F944 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA3ECDE610479F8EA8C0DE5E2E84A64 /* Pods-SwiftProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DEA3ECDE610479F8EA8C0DE5E2E84A64 /* Pods-SwiftProject */ = {
+			isa = PBXGroup;
+			children = (
+				23D4F44DB6323575018A84625E4C0FAF /* Info.plist */,
+				44BCE3DB0550F7C6A1B9EBF7FDF7299B /* Pods-SwiftProject.modulemap */,
+				58CC0174444C88EB888A34FFA361A293 /* Pods-SwiftProject-acknowledgements.markdown */,
+				E3A6DBF4371127DA848F2A063FB9F78B /* Pods-SwiftProject-acknowledgements.plist */,
+				29A9D349D133876146AD9FB11F36CB48 /* Pods-SwiftProject-dummy.m */,
+				75539E35198BDFAEDB399009BCD249CA /* Pods-SwiftProject-frameworks.sh */,
+				486391F0C6B03E3F40B9D24CDCDE4936 /* Pods-SwiftProject-resources.sh */,
+				5BDE8B7982A61A5B4A7F29F294881FEA /* Pods-SwiftProject-umbrella.h */,
+				E71D56497DF2AE384AB26266CA822707 /* Pods-SwiftProject.debug.xcconfig */,
+				F868A56DCF7425277DA982C8E82432E8 /* Pods-SwiftProject.release.xcconfig */,
+			);
+			name = "Pods-SwiftProject";
+			path = "Target Support Files/Pods-SwiftProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8928CBEB741681327016FC27DF7E13BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15421D83C95B09D55312BEA42761E2 /* Pods-SwiftProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5FDDC90660438652F9D21D6F7640A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87995EA65CBE91CD49FF10ACA823EB17 /* SwiftWebVC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		72EFEFC0C356562D85FDC83E0691B562 /* SwiftWebVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB23085AE2BF30E1FA5F9D2B5A2F301 /* Build configuration list for PBXNativeTarget "SwiftWebVC" */;
+			buildPhases = (
+				0E580999DCACFD9E0059AB930306464E /* Sources */,
+				518726D8FE427AEF2CFD2E2E32839143 /* Frameworks */,
+				4A28C3D6141BCDEE205C30F6FC1B8B06 /* Resources */,
+				FA5FDDC90660438652F9D21D6F7640A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B6507AE5A156C56988C1B895671F0F7 /* PBXTargetDependency */,
+			);
+			name = SwiftWebVC;
+			productName = SwiftWebVC;
+			productReference = 3E4792B074B90D72821ABBED6BB46F31 /* SwiftWebVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7862F4CEBEC8F434E5780A644AD38121 /* SwiftWebVC-SwiftWebVCResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E681195E667DAE824076284FFC30B862 /* Build configuration list for PBXNativeTarget "SwiftWebVC-SwiftWebVCResources" */;
+			buildPhases = (
+				B522228C2C4FA23BB87D084A72FAD121 /* Sources */,
+				8256C60677C546DC3879CD1A10B3F102 /* Frameworks */,
+				1D069A0541914BECB42C162FEFD11903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftWebVC-SwiftWebVCResources";
+			productName = "SwiftWebVC-SwiftWebVCResources";
+			productReference = 653FABCD10E3101092BEA81F9C357B56 /* SwiftWebVCResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		98426CC5C6F509F3C9C3864CBC4A8A39 /* Pods-SwiftProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905B17F370A11030A6B4F38D67A9F5D0 /* Build configuration list for PBXNativeTarget "Pods-SwiftProject" */;
+			buildPhases = (
+				D772A2186F7D9896EEAAEF0B5923D867 /* Sources */,
+				DE5ECF869FF0D84DEB5BF75088838EA0 /* Frameworks */,
+				8928CBEB741681327016FC27DF7E13BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96E34C3D2836F4AFE490CD0DAF8ABFB4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftProject";
+			productName = "Pods-SwiftProject";
+			productReference = 26985BB4187B9C892441F91898389B1C /* Pods_SwiftProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F674FC83C6497635B3F2CB05C1147B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98426CC5C6F509F3C9C3864CBC4A8A39 /* Pods-SwiftProject */,
+				72EFEFC0C356562D85FDC83E0691B562 /* SwiftWebVC */,
+				7862F4CEBEC8F434E5780A644AD38121 /* SwiftWebVC-SwiftWebVCResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D069A0541914BECB42C162FEFD11903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5C362A629F522770588BACD38B7718 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A28C3D6141BCDEE205C30F6FC1B8B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EDBB7741E6C3D662A9079953424C5C /* Media.xcassets in Resources */,
+				868819F1BA2F538A76C22DB01F591F8F /* SwiftWebVCResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E580999DCACFD9E0059AB930306464E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89646780624C36DBBEE648FB2D81826D /* SwiftModalWebVC.swift in Sources */,
+				F3781A23A754CB59A09AE682E625D9C9 /* SwiftWebVC-dummy.m in Sources */,
+				BDA067630DC18DE7CE08CE3BFFEE9C87 /* SwiftWebVC.swift in Sources */,
+				EF755AED357E193A3E3BC8F38B056265 /* SwiftWebVCActivity.swift in Sources */,
+				4B1F83A2E57E6A8589C6CE0A28665A4D /* SwiftWebVCActivityChrome.swift in Sources */,
+				65CBC0256ECAE11D4A5F20A7309AE649 /* SwiftWebVCActivitySafari.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B522228C2C4FA23BB87D084A72FAD121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D772A2186F7D9896EEAAEF0B5923D867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14171F3288CBEA71747867C1079FF0AA /* Pods-SwiftProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B6507AE5A156C56988C1B895671F0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftWebVC-SwiftWebVCResources";
+			target = 7862F4CEBEC8F434E5780A644AD38121 /* SwiftWebVC-SwiftWebVCResources */;
+			targetProxy = C35B4704DA14A0ABAACA55F264313DCE /* PBXContainerItemProxy */;
+		};
+		96E34C3D2836F4AFE490CD0DAF8ABFB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftWebVC;
+			target = 72EFEFC0C356562D85FDC83E0691B562 /* SwiftWebVC */;
+			targetProxy = 135AE4C79C98AF7105BB778BFB96A171 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62FD6EE4B6595C543E8FB3A65DDF1A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D59F01471E37D343ADF4E071B9C1B05 /* SwiftWebVC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftWebVC/SwiftWebVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftWebVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftWebVC/SwiftWebVC.modulemap";
+				PRODUCT_NAME = SwiftWebVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D4658C7988B7AAC66FC7A562B6FE519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D59F01471E37D343ADF4E071B9C1B05 /* SwiftWebVC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftWebVC/SwiftWebVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftWebVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftWebVC/SwiftWebVC.modulemap";
+				PRODUCT_NAME = SwiftWebVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CEA43FB373236962CF637C9ACDEF608A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D59F01471E37D343ADF4E071B9C1B05 /* SwiftWebVC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftWebVC";
+				INFOPLIST_FILE = "Target Support Files/SwiftWebVC/ResourceBundle-SwiftWebVCResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftWebVCResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D083A870D0437641B9138AEE7C8659C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71D56497DF2AE384AB26266CA822707 /* Pods-SwiftProject.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E724651C139A1423121805371317597D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F868A56DCF7425277DA982C8E82432E8 /* Pods-SwiftProject.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB6B0070BA65DAEEAE8E49E07B48C014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D59F01471E37D343ADF4E071B9C1B05 /* SwiftWebVC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftWebVC";
+				INFOPLIST_FILE = "Target Support Files/SwiftWebVC/ResourceBundle-SwiftWebVCResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftWebVCResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905B17F370A11030A6B4F38D67A9F5D0 /* Build configuration list for PBXNativeTarget "Pods-SwiftProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D083A870D0437641B9138AEE7C8659C2 /* Debug */,
+				E724651C139A1423121805371317597D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB23085AE2BF30E1FA5F9D2B5A2F301 /* Build configuration list for PBXNativeTarget "SwiftWebVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FD6EE4B6595C543E8FB3A65DDF1A34 /* Debug */,
+				8D4658C7988B7AAC66FC7A562B6FE519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E681195E667DAE824076284FFC30B862 /* Build configuration list for PBXNativeTarget "SwiftWebVC-SwiftWebVCResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA43FB373236962CF637C9ACDEF608A /* Debug */,
+				EB6B0070BA65DAEEAE8E49E07B48C014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
