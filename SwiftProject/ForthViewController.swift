@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftWebVC
 class ForthViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     var forthTableView:UITableView!
